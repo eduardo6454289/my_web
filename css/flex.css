@@ -46,7 +46,7 @@ ul.contenedor{
 	border: 1px solid #fff;
 	list-style-type: none;
 	display: flex;
-
+	justify-content: space-between;
 }
 div.columna1 {
 	margin: 10px;
@@ -81,4 +81,12 @@ div.columna3 p {
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+div.image-container {
+    flex: 0 1 25%;
+    height: 200px;
+}
+div img {
+    max-width: 100%;
+    max-height: 100%;
 }
